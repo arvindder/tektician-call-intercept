@@ -1,0 +1,34 @@
+{
+  "name": "cordova-tektician-phonecallintercept",
+  "version": "0.1.4",
+  "description": "It is a Apache Cordova plugin to simplify handling phone call status and events in Android and iOS devices",
+  "cordova": {
+    "id": "cordova-tektician-phonecallintercept",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arvindder/tektician-call-intercept"
+  },
+  "keywords": [
+    "phonegap",
+    "calendar",
+    "phone",
+    "call",
+    "phone-call",
+    "ringing",
+    "phone-state",
+    "call-state",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Arvindder Rajasingam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arvindder/tektician-call-intercept/issues"
+  },
+  "homepage": "https://github.com/arvindder/tektician-call-intercept#readme"
+}
