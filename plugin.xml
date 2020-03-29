@@ -3,7 +3,7 @@
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
            id="cordova-tektician-phonecallintercept"
       version="0.1.4">
-    <name>phonecallintercept</name>
+    <name>PhoneCallIntercept</name>
     <description>It is a Apache Cordova plugin to simplify handling phone call status and events in Android and iOS devices.</description>
     <license>MIT</license>
     <keywords>phonegap, cordova, calendar, phone, call, phone-call, events, android, ios</keywords>
@@ -17,7 +17,7 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="PhoneCallIntercept">
-                <param name="android-package" value="io.tektician.phonecallintercept" />
+                <param name="android-package" value="io.tektician.phonecallintercept.PhoneCallIntercept" />
             </feature>
         </config-file>
 

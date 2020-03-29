@@ -1,7 +1,7 @@
-var PhoneCallTrap = {
+var PhoneCallIntercept = {
     onCall: function(successCallback, errorCallback) {
         errorCallback = errorCallback || this.errorCallback;
-        cordova.exec(successCallback, errorCallback, 'PhoneCallTrap', 'onCall', []);
+        cordova.exec(successCallback, errorCallback, 'PhoneCallIntercept', 'onCall', []);
     },
 
     errorCallback: function() {
@@ -10,8 +10,8 @@ var PhoneCallTrap = {
 
     getCurrentState: function(successCallback, errorCallback) {
         errorCallback = errorCallback || this.errorCallback;
-        cordova.exec(successCallback, errorCallback, 'PhoneCallTrap', 'getCurrentState', []);
+        cordova.exec(successCallback, errorCallback, 'PhoneCallIntercept', 'getCurrentState', []);
     }
 };
 
-module.exports = PhoneCallTrap;
+module.exports = PhoneCallIntercept;
