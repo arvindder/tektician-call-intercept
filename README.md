@@ -8,7 +8,7 @@
                 console.log("Phone is ringing");
                 break;
             case "OFFHOOK":
-                console.log("Phone is off-hook");
+                console.log("Phone is off-hook/Ongoing Call");
                 break;
 
             case "IDLE":
